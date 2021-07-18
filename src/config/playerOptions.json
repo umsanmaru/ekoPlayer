@@ -1,0 +1,8 @@
+{
+    "plugins": {
+        "variables": {},
+        "checkpoints": {
+            "persistent": false
+        }        
+    }
+}

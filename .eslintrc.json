@@ -1,0 +1,47 @@
+{
+    "env": {
+        "es6": true,
+        "browser": true,
+        "amd": false
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "global-require": [
+            "error"
+        ],
+        "no-unused-vars": [
+            "warn"
+        ],
+        "no-case-declarations": [
+            "warn"
+        ],
+        "no-useless-escape": [
+            "warn"
+        ],
+        "indent": [
+            "warn",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "warn",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": [
+            "warn"
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+node_modules
+dist
+
+# Ignore all files added by the Eko Autocompleter extension
+/jsconfig.json
+/autocomplete.d.ts
